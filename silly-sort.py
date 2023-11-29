@@ -11,7 +11,8 @@ def silly_sort(arr):
         return []
     else:
         max_val = largest(arr)
-        sorted_array = []  # Define sorted_array inside the function
+        sorted_array = []
+        #loops the biggest number of times and checks if the number exists in the array
         for i in range(1, max_val + 1):
             if i in arr:
                 sorted_array.append(i)
